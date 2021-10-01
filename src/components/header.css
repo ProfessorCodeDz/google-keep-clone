@@ -1,0 +1,85 @@
+/*header*/
+.header header{
+    max-width: 800px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px; 
+}
+
+.header hr{
+    height: 0.5px;
+    background: grey;
+    opacity: 0.2;
+}
+/*logo*/
+.header header .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.header header .logo h1{
+    font-weight: 400;
+    color: #5f6368;
+    font-size: 22px;
+}
+
+/*search*/
+.header header .search {
+    width: 400px;
+    height: 48px;
+    background-color: #f1f3f4;
+    border: none;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header header .search input{
+    width: 80%;
+    height: 48px;
+    float: right;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: grey;
+}
+
+.header header .search .search-icon{            
+    width: 30px;
+    height: 30px;
+    background-image: url('https://i2.wp.com/www.thinkafrica.fi/wp-content/uploads/2019/04/search-icon.png?fit=1200%2C1200&ssl=1&w=640');
+    background-size: 100% 100%;
+    margin: 0 10px;
+}
+
+/*login & register*/
+.header header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header header ul li {
+    margin: 0 10px;
+    color: #5f6368;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header header ul li .avatar-img{
+    background-image: url('https://www.pngitem.com/pimgs/m/534-5340999_l-png-death-note-transparent-png.png');
+    width: 30px;
+    height: 30px;
+    background-size: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+}

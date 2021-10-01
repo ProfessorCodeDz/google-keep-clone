@@ -1,0 +1,45 @@
+.note{
+    width: 250px;
+    background: white;
+    color: #202124;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    float: left;
+    margin: 10px;
+    min-height: 150px;
+    text-align: left;
+    padding: 0 20px;
+    position: relative;
+}
+
+.note h2{
+    font-size: 1rem;
+}
+
+.note p{
+    font-size: 1.125rem;
+}
+
+.note .delete{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #f1f3f4;
+    color: grey;
+    cursor: pointer;
+    border: none;
+    visibility: hidden;
+}
+
+.note .delete:hover{
+    background-color: #FF2626;
+    color: #f1f3f4; 
+}
+
+.note:hover .delete{
+    visibility: visible;
+}
